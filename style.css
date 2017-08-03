@@ -1,0 +1,58 @@
+.ethos-stats-widget-container > .totals {
+    text-align: center;
+    color: #fff;
+    background-color: #00a0d2;
+    border: solid 2px #aaa;
+    border-radius: 5px;
+    padding: 5px;
+
+    margin: 5px auto;
+}
+
+.ethos-stats-widget-container > .not-mining {
+    background-color: #ee5f5b;
+}
+.ethos-stats-widget-container > .totals > h1 {
+    font-weight: bold;
+    margin: 0;
+}
+
+.ethos-stats-widget-container > .ethos-stats-widget-data > .rig {
+    background-color: #eee;
+    padding: 5px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.ethos-stats-gpu-data {
+    margin: 0;
+}
+
+.ethos-stats-gpu-data > tbody > tr >td {
+    padding: 0;
+    border: none;
+}
+
+.ethos-stats-rig-data {
+    margin-top: 0.5em;
+}
+
+.ethos-stats-rig-data > tbody > tr >td {
+    padding: 0;
+    border: none;
+}
+
+.ethos-stats-rig-data > tbody > tr > td > .hashrate,
+.ethos-stats-rig-data > tbody > tr > td > .minercount
+{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+.ethos-stats-rig-data > tbody > tr > th {
+    font-weight: normal;
+    padding: 0;
+    border: none;
+    color: #00a0d2;
+    font-weight: bold;
+}
+

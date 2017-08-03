@@ -1,0 +1,79 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: EthosStats\n"
+"POT-Creation-Date: 2017-08-02 23:07+0200\n"
+"PO-Revision-Date: 2017-08-03 16:31+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Last-Translator: \n"
+"Language: nl_NL\n"
+"X-Poedit-SearchPath-0: EthosStatsWidget.php\n"
+
+msgid "ethOS Statistics"
+msgstr "ethOS Statistieken"
+
+msgid "Display statistics of your ethOS mining rigs"
+msgstr "Toon de statistieken van je ethOS mijn-platforms"
+
+msgid "Total hashrate"
+msgstr "Totale hashrate"
+
+msgid "Produced by"
+msgstr "Geproduceerd door"
+
+msgid "rigs"
+msgstr "platforms"
+
+msgid "rig"
+msgstr "platform"
+
+msgid "miners"
+msgstr "mijners"
+
+msgid "miner"
+msgstr "mijner"
+
+msgid "There are currently no rigs mining"
+msgstr "Er zijn op dit moment geen platforms aan het minen"
+
+msgid "day"
+msgstr "dag"
+
+msgid "days"
+msgstr "dagen"
+
+msgid "hours"
+msgstr "uren"
+
+msgid "hour"
+msgstr "uur"
+
+msgid "minutes"
+msgstr "minuten"
+
+msgid "minute"
+msgstr "minuut"
+
+msgid "Show panel totals"
+msgstr "Toon totalen van het paneel"
+
+msgid "title"
+msgstr "titel"
+
+msgid "panel"
+msgstr "paneel"
+
+msgid "These default settings are used to connect to your panel"
+msgstr "Deze standaard instellingen worden gebruikt om te verbinden met je paneel"
+
+msgid "default"
+msgstr "standaard"
+
+msgid "settings"
+msgstr "instellingen"
