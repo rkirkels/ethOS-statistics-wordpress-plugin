@@ -24,7 +24,7 @@ add_action('widgets_init', function() {
 });
 add_action('admin_menu', 'ethos_stats_settings');
 add_action('admin_init', 'ethos_stats_settings_init');
-add_action('wp_enqueue_scripts', 'plugin_styles');
+add_action('wp_enqueue_scripts', 'ethos_stats_plugin_styles');
 
 /*
  * Load translations
@@ -32,7 +32,7 @@ add_action('wp_enqueue_scripts', 'plugin_styles');
 load_plugin_textdomain('ethosstats', false, dirname(plugin_basename(__FILE__)) . '/languages/');
 
 function ethos_stats_settings() {
-    add_options_page('ethOS Statisticsx', 'ethOS Statistics', 'manage_options', 'ethos-stats-settings', 'ethos_stats_settings_page');
+    add_options_page('ethOS Statistics', 'ethOS Statistics', 'manage_options', 'ethos-stats-settings', 'ethos_stats_settings_page');
     }
 
 
@@ -56,8 +56,8 @@ function ethos_stats_settings_init() {
     register_setting('ethos-stats-settings','ethos_stats_options');
 }
 
-function plugin_styles() {
-    wp_enqueue_style('EthosStatsStyles', plugins_url('/ethos-stats-plugin/style.css'));
+function ethos_stats_plugin_styles() {
+    wp_enqueue_style('EthosStatsStyles', plugins_url('style.css', __FILE__));
 }
 function ethos_stats_settings_setup() {
     echo __('These default settings are used to connect to your panel', 'ethosstats') . '.';
