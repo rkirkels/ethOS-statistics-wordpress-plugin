@@ -31,7 +31,8 @@ class EthosStatsPanel
         $panelData = get_transient( 'ethos_stats' );
         $this->totalHash = $panelData->total_hash;
         foreach(get_object_vars($panelData->rigs) as $name => $rigData) {
-            $newRig = new EthosStatsRig($name, $rigData);
+            // Init a new rig. Set the rig's name to rack location, if set. Otherwise, is the rig's host name.
+            $newRig = new EthosStatsRig((isset($rigData->rack_loc)) ? $rigData->rack_loc : $name, $rigData);
             $this->rigs[] = $newRig;
 
         }
