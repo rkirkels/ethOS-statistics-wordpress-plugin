@@ -58,7 +58,13 @@ function ethos_stats_settings_init() {
 
 function ethos_stats_plugin_styles() {
     wp_enqueue_style('EthosStatsStyles', plugins_url('style.css', __FILE__));
+    wp_enqueue_style('EthosStatsStyles-FontAwesome', '//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 }
+
+function ethos_stats_plugin_scripts() {
+//    wp_enqueue_script('EthosStatsScripts', );
+}
+
 function ethos_stats_settings_setup() {
     echo __('These default settings are used to connect to your panel', 'ethosstats') . '.';
 }

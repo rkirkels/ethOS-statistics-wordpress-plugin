@@ -22,7 +22,6 @@ class EthosStatsWidget extends WP_Widget {
      * @param $instance
      */
     public function widget($args, $instance) {
-        echo '<script src="https://use.fontawesome.com/d94b032d9e.js"></script>';
         echo '<h1 class="widget-title">' . $instance['title'] . '</h1>';
         echo '<div class="ethos-stats-widget-container">';
 
