@@ -62,7 +62,7 @@ function ethos_stats_plugin_styles() {
 }
 
 function ethos_stats_plugin_scripts() {
-//    wp_enqueue_script('EthosStatsScripts', );
+
 }
 
 function ethos_stats_settings_setup() {
