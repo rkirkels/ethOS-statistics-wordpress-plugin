@@ -14,7 +14,7 @@ class EthosStatsWidget extends WP_Widget {
         $widgetOptions = [
             'description' => __('Display statistics of your ethOS mining rigs', 'ethosstats')
         ];
-        parent::__construct('EthosStatsWidget', $name = __('EthOS Statistics', 'ethosstats'), $widgetOptions);
+        parent::__construct('EthosStatsWidget', $name = __('ethOS Statistics', 'ethosstats'), $widgetOptions);
     }
 
     /**
@@ -175,7 +175,7 @@ class EthosStatsWidget extends WP_Widget {
             $panelId = $instance['panelId'];
         }
 
-        $title = __('EthOS Statistics');
+        $title = __('ethOS Statistics');
         if (isset($instance['title'])) {
             $title = $instance['title'];
         }

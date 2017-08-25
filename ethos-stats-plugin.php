@@ -1,10 +1,12 @@
 <?php
 /**
  * Plugin Name: ethOS Statistics
- * Plugin URI: https://rutger.kirkels.nl
+ * Plugin URI: https://rutger.kirkels.nl/ethos-statistics-wordpress-plugin/
  * Author: Rutger Kirkels
- * Version: 1.0
+ * Version: 1.0.1
  * Description: Plugin for displaying the stats of your ethOS mining rig.
+ * Text Domain: ethosstats
+ * Domain Path: /languages
  */
 
 
